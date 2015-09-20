@@ -1,0 +1,9 @@
+<ca.mcgill.ca.ecse321.eventregistration.model.RegistrationManager id="1">
+  <registrations id="2"/>
+  <participants id="3">
+    <ca.mcgill.ca.ecse321.eventregistration.model.Participant id="4">
+      <name>jack</name>
+    </ca.mcgill.ca.ecse321.eventregistration.model.Participant>
+  </participants>
+  <events id="5"/>
+</ca.mcgill.ca.ecse321.eventregistration.model.RegistrationManager>

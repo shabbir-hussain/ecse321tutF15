@@ -1,0 +1,14 @@
+<?php
+
+$name = "Shabbir";
+if(isset( $_GET['q'])){
+    $name = $_GET['q'];
+}
+$today = date('Y-m-d');
+$dt = new DateTime("now", new DateTimeZone('America/Montreal'));
+
+$hour =  $dt->format('H:i:s');
+
+echo "Hello ". $name . " Today is " . $today ." it is now " . $hour ;
+
+?>

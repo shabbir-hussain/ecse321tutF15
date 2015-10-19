@@ -5,9 +5,9 @@ import java.util.Random;
 public class MainMethod {
 
 	public static void main(String args[]){
-		DynamicDispatch();
+		//DynamicDispatch();
 		//BrokenRuntime();
-		//FixedRuntime();
+		FixedRuntime();
 	}
 	
 	//Dynamic method dispatch example

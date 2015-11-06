@@ -20,7 +20,7 @@ public class TCPClient implements Runnable{
 		Socket client = new Socket(address,sPort);
 		BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
 		line = in.readLine();
-		System.out.println("read line");
+		System.out.println(line);
 	}
 	
 	public static void main(String args[]) throws UnknownHostException, IOException{
